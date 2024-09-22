@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voice Enhancement App</title>
+    <title>Voice Enhancer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Voice Enhancement App</h1>
-    <p>Record your voice and enhance it using the MLP Audio Processor module</p>
-    
     <button id="record-button">Start Recording</button>
     <button id="stop-button" disabled>Stop Recording</button>
-    
-    <h2>Playback Original:</h2>
+    <button id="play-enhanced-button" disabled>Play Enhanced Audio</button>
+
     <audio id="original-audio" controls></audio>
-    
-    <h2>Playback Enhanced:</h2>
     <audio id="enhanced-audio" controls></audio>
-    
-    <button id="enhance-button" disabled>Enhance Voice</button>
 
     <script src="script.js"></script>
 </body>
